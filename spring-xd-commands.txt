@@ -1,0 +1,3 @@
+module upload --type source --name teapot --file ./build/libs/custom-source-template-1.0.jar
+
+stream create --name teapottest --definition "teapot | log" --deploy
